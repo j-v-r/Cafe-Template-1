@@ -1,0 +1,141 @@
+html {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Suez One', serif;
+}
+
+div.about,
+div.menu,
+div.contact {
+	text-align: center;
+    width: 90%;
+    margin: 2rem auto;
+    border: 1px solid $primary-color;
+    padding: .5rem;
+    box-shadow: 0px 5px 5px grey;
+    @media screen and ('min-width: 500px') {
+    	width: 70%;
+    }
+    @media screen and ('min-width: 800px') {
+    	width: 50%;
+    }
+    @media screen and ('min-width: 1200px') {
+		width: 40%;
+	}
+}
+
+section {
+	text-align: center;
+	div {
+		h2 {
+    	margin-bottom: 1rem;
+    	font-size: 1.5rem;
+    	text-decoration: underline;
+    	@media screen and ('min-width: 800px') {
+    		font-size: 2rem;
+    		}
+    	}
+    	p {
+    	line-height: 1.5rem;
+    	@media screen and ('min-width: 800px') {
+    		font-size: 1.5rem;
+    		line-height: 2.5rem;
+    		}
+    	}
+	}
+	a {
+		width: 50px;
+		margin: 0 auto;
+		display: block;
+	}
+	a.backToTop {
+		width: 100px;
+		text-decoration: none;
+		color: black;
+		margin: -.5rem auto .5rem;
+	}
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	caption {
+		padding: .5rem;
+		font-size: 1.25rem;
+		font-style: italic;
+		@media screen and ('min-width: 500px') {
+			font-size:1.75rem;
+			}
+	}
+	th {
+		padding: .25rem;
+		text-decoration: underline;
+		@media screen and ('min-width: 500px') {
+			padding: .5rem;
+			font-size:1.25rem;
+			}
+		}
+	td {
+		padding: .25rem;
+		@media screen and ('min-width: 500px') {
+			padding: .5rem;
+			font-size:1.25rem;
+			}
+		}
+	tbody,
+	thead {
+		padding: .5rem;
+	}
+}
+
+form {
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		border: 1px solid $primary-color;
+		margin: .5rem;
+		width: 80%;
+	}
+	textarea {
+		resize: none;
+		width: 90%;
+		height: 150px;
+	}
+	input[type="submit"] {
+		border: 1px solid $primary-color;
+		padding: 1rem;
+		font-size: 1rem;
+		background-color: white;
+		font-family: 'Suez One', serif;
+		transition: .5s;
+		cursor: pointer;
+		&:hover {
+				background-color: $primary-color;
+				color: white;
+				}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+footer{
+	min-width: 100%;
+	background-color: $primary-color;
+	text-align: center;
+	color: white;
+	padding: .5rem 0;
+}
+
+div.footer-logo {
+	background-image: url('../imgs/logoMobileFooter.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 75px;
+	margin: auto;
+}
+
+div.address {
+	line-height: 1.5rem;
+}

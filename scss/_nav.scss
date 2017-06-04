@@ -1,0 +1,40 @@
+nav {
+	margin-top: 2rem;
+	ul {
+		text-align: center;
+		li {
+			width: 30%;
+			margin: 1rem auto;
+			border: $primary-color solid 3px;
+			color: black;
+			transition: .5s;
+			cursor: pointer;
+			@media screen and ('min-width: 500px') {
+				display: inline-block;
+				width: 20%;
+				margin-left: 1rem;
+			}
+			@media screen and ('min-width: 800px') {
+					width: 25%;
+			}
+
+			&:hover {
+				background-color: $primary-color;
+				color: white;
+				}
+			a {
+				text-decoration: none;
+				font-size: 1.25rem;
+				color: inherit;
+				padding: .5rem;
+				display: block;
+				@media screen and ('min-width: 500px') {
+					padding: 1rem 2rem;
+				}
+				@media screen and ('min-width: 800px') {
+					padding: 1rem 4rem;
+				}
+			}
+		}
+	}
+}
