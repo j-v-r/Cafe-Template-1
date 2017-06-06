@@ -19,7 +19,7 @@ gulp.task('compressImages', () => {
 		.pipe(gulp.dest('./imgs/'));
 });
 
-gulp.task('process-css', () => {
+gulp.task('processCss', () => {
 	return gulp.src(['css/application.css'])
 		.pipe(cleanCSS())
 		.pipe(concat('prod.min.css'))

@@ -48,9 +48,12 @@ section {
     	}
 	}
 	a {
-		width: 50px;
 		margin: 0 auto;
 		display: block;
+	}
+	a.anchorArrow {
+		width: 50px;
+		margin: 0 auto;
 	}
 	a.backToTop {
 		width: 100px;
